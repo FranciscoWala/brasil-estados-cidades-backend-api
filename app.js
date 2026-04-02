@@ -118,7 +118,7 @@ app.get('/v1/senai/cidades/estado/:uf', function (request, response) {
         response.json(estados)
     } else {
         response.status(404)
-        response.json({ "message": "nenhuma cidade do estado foi encontrada" })
+        response.json({ "autor": "Francisco Wala", "status_code": 404, "message": "nenhuma cidade do estado foi encontrada " })
     }
 })
 

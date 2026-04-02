@@ -220,7 +220,7 @@ function getCidades(siglaEstado) {
             }
         }
     })
-    if(descricaoCidade.uf != null && descricaoCidade.quantidade!=null&& descricaoCidade.descricao!=null){
+    if(descricaoCidade.uf != null && descricaoCidade.quantidade!=null&& descricaoCidade.descricao!=null&&descricaoCidade.cidades.length>0){
         return descricaoCidade
     }else{
         return false
