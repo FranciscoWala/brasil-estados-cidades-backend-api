@@ -127,7 +127,7 @@ app.get('/v1/senai/help/', function (request, response) {
         "api-description": "API para manipular dados de Estdaos e Cidades",
         "date": "2026/04/02",
         "developement": "Francisco Wala",
-        "version": 1.0,
+        "version": '1.0.2.4',
         "endpoints": [
             {
                 "router1": "/v1/senai/estados",
